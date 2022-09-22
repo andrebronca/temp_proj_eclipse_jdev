@@ -5,5 +5,6 @@ public class PrimeiraClasse {
 		System.out.println("hum!!!");
 		System.out.println("ta osso");
 		System.out.println("gerado token");
+		
 	}
 }
