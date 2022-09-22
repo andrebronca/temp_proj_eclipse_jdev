@@ -7,6 +7,15 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dtNascimento;
+	private double altura;
+	
+	public double getAltura() {
+		return altura;
+	}
+	
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
 	
 	public Date getDtNascimento() {
 		return dtNascimento;
