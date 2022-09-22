@@ -1,9 +1,20 @@
 package com.arb.mod06.model;
 
+import java.util.Date;
+
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private Date dtNascimento;
+	
+	public Date getDtNascimento() {
+		return dtNascimento;
+	}
+	
+	public void setDtNascimento(Date dtNascimento) {
+		this.dtNascimento = dtNascimento;
+	}
 
 	public String getNome() {
 		return nome;
