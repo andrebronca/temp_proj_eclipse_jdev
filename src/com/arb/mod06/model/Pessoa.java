@@ -7,6 +7,15 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private Date dtNascimento;
+	private Date dtCadastro;
+	
+	public Date getDtCadastro() {
+		return dtCadastro;
+	}
+	
+	public void setDtCadastro(Date dtCadastro) {
+		this.dtCadastro = dtCadastro;
+	}
 	
 	public Date getDtNascimento() {
 		return dtNascimento;
